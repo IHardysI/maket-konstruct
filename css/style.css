@@ -81,6 +81,14 @@ body {
 
 }
 
+.header::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #E6E6E6;
+}
+
 .header__big-pic {
     display: flex;
     flex-direction: column;
@@ -188,18 +196,76 @@ body {
 }
 
 .header__logo {
-
+    display: flex;
 }
 
 .header__menu {
 
 }
 
-.header__line {
-    height: 2px;
+.header__burger {
+    display: none;
+}
 
-    background-color: #48555B;
+@media (max-width: 767.98px) {
+    .header__container {
+        justify-content: center;
+    }
+
+    .header__burger {
+        z-index: 5;
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+        height: 18px;
+        cursor: pointer;
+    }
     
+    .header__burger span, 
+    .header__burger::before, 
+    .header__burger::after {
+        left: 0;
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: white;
+    }
+
+    .header__burger::before, 
+    .header__burger::after {
+        content: '';
+    }
+
+    .header__burger::before {
+        top: 0;
+    }
+
+    .header__burger::after {
+        bottom: 0;
+    }
+
+    .header__burger span {
+        top: 50%;
+        transform: scale(1) translate(0px, -50%);
+    }
+
+    .header__menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 1);
+        padding: 60px 0;
+        transition: all 0.3s ease 0s;
+        transform: translate(-100%, 0px);
+    }
+    .header__menu._active {
+        transform: translate(0px, 0px);
+    }
 }
 /* =============================== */
 .menu {
@@ -216,7 +282,29 @@ body {
 }
 
 .menu__link {
+    font-size: 0.75rem;
+    line-height: 0.875rem;
+    font-weight: 600;
 
+    color: #48555B;
+}
+
+@media (max-width: 990.98px) {
+    .menu__link {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .menu__link {
+        font-size: 0.55rem;
+        color: white;
+    }
+    .menu__list {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
 }
 
 
