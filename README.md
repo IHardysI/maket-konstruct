@@ -1,0 +1,2 @@
+# maket-konstruct
+Training layout
