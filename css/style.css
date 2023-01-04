@@ -101,7 +101,7 @@ body {
     background-image: url(../img/big-pic__background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     
     padding: 41px 0 71px 0;
 }
@@ -641,5 +641,138 @@ body {
     }
 }
 
+/* get-it-touch */
+
+.main__get-in-touch {
+
+}
+
+.get-in-touch {
+    margin-top: 7.18rem;
+}
+
+.get-in-touch__h {
+    font-size: 1.875rem;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.get-in-touch__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: 700;
+
+    background-color: #00A4E5;
+
+    width: 9.375rem;
+    height: 2.5rem;
+}
+
+@media (max-width: 990.98px) {
+    .get-in-touch {
+        margin-top: 0;
+    }
+
+    .get-in-touch__h {
+        font-size: 1.562rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .get-in-touch__h {
+        font-size: 1.3rem;
+    }
+
+    .get-in-touch__button {
+        width: 8rem;
+        height: 2.2rem;
+    }
+}
+
+.get-in-touch__block-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.1875rem;
+    flex-direction: column;
+
+    background-image: url(../img/get-in-touch.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 65vh;
+    width: 100vw;
+}
+
+.get-in-touch__block-two {
+    background: #171819;
+
+    height: 14vh;
+    
+    display: flex;
+    gap: 3.75rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-in-touch__newsletter {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: white;
+}
+
+.get-in-touch__news-form {
+    width: 25rem;
+    height: 2.5rem;
+
+    display: flex;
+}
+
+.get-it-touch__email-input {
+    width: 62.5%;
+
+    padding: 0.625rem;
+
+    outline: none;
+}
+
+.get-in-touch__news-btn {
+    width: 37.5%;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    background: #00A4E5;
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    .get-in-touch__block-two {
+        height: 28vh;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .get-in-touch__newsletter {
+        font-size: 1.15rem;
+    }
+
+    .get-in-touch__news-form {
+        width: 16rem;
+        height: 2rem;
+    }
+
+    .get-in-touch__news-btn {
+        font-size: 0.8rem;
+    }
+}
 
 
