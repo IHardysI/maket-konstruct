@@ -98,7 +98,7 @@ body {
     height: 100vh;
     width: 100vw;
 
-    background-image: url(/img/big-pic__background.png);
+    background-image: url(../img/big-pic__background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -432,16 +432,16 @@ body {
 }
 
 .story__link-1 {
-    background-image: url(/img/strory__1.jpg);
+    background-image: url(../img/strory__1.jpg);
     background-size: inherit;
 }
 
 .story__link-2 {
-    background-image: url(/img/story__2.jpg);
+    background-image: url(../img/story__2.jpg);
 }
 
 .story__link-3 {
-    background-image: url(/img/story__3.jpg);
+    background-image: url(../img/story__3.jpg);
 }
 
 @media (max-width: 990.98px) {
