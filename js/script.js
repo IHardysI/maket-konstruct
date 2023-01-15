@@ -1,3 +1,5 @@
+//  burger
+
 const menuIcon = document.querySelector('.header__burger')
 
 if (menuIcon) {
@@ -7,3 +9,9 @@ if (menuIcon) {
         menu.classList.toggle('_active')
     })
 }
+
+// scrollTo
+
+document.querySelector('.big-pic__down-part').addEventListener('click', function() {
+    document.querySelector('.header__container').scrollIntoView({behavior: 'smooth',})
+})

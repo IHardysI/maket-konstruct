@@ -149,6 +149,8 @@ body {
     letter-spacing: 3.7px;
     
     color: #fff;
+
+    cursor: pointer;
 }
 
 @media (max-width: 990.98px) {
@@ -320,7 +322,7 @@ body {
 /* main */
 
 .main {
-    margin: 58px 0 118px 0 ;
+    margin: 58px 0 0 0 ;
 }
 
 
@@ -706,6 +708,7 @@ body {
     background-image: url(../img/get-in-touch.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
     height: 65vh;
     width: 100vw;
@@ -772,6 +775,334 @@ body {
 
     .get-in-touch__news-btn {
         font-size: 0.8rem;
+    }
+}
+
+/* footer */
+
+.footer {
+    background: #141A20;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__up {
+    color: #fff;
+
+    display: flex;
+    gap: 3.125rem;
+    align-items: flex-start;
+
+    padding: 42px 0 40px 0;
+}
+
+.footer__up-common {
+
+}
+
+.footer__up-1 {
+    margin-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.footer__up1-h {
+    letter-spacing: 0.846154px;
+}
+
+.footer__up1-logo {
+    max-width: 6.312rem;
+}
+
+.footer__up1-p {
+    letter-spacing: 0.85px;
+}
+
+.footer__up-2 {
+
+}
+
+.footer__up2-list {
+    display: flex;
+    gap: 2.125rem;
+}
+
+
+.footer__up2-item1 {
+
+}
+
+.footer__up2-sublist1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    letter-spacing: 0.846154px;
+}
+
+.footer__up2-1subitem{
+    
+}
+
+.footer__up2-1subitem1 {
+
+}
+
+.footer__up2-subitem1-h {
+
+}
+
+.footer__up2-1subitem2 {
+
+}
+
+.footer__up2-link {
+    color: white;
+    font-weight: 600;
+}
+
+.footer__up2-1subitem3 {
+
+}
+
+.footer__up2-1subitem4 {
+
+}
+
+.footer__up2-1subitem5 {
+
+}
+
+.footer__up2-1subitem6 {
+    min-width: 5.6rem;
+}
+
+.footer__up2-item2 {
+    margin-top: 2.43rem;
+}
+
+.footer__up2-sublist2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    letter-spacing: 0.846154px;
+}
+
+.footer__up2-2subitem1 {
+
+}
+
+.footer__up2-2subitem2 {
+
+}
+
+.footer__up2-2subitem3 {
+
+}
+
+.footer__up2-item3 {
+    margin-top: 2.43rem;
+}
+
+.footer__up2-sublist3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    letter-spacing: 0.846154px;
+}
+
+.footer__up2-3subitem1 {
+
+}
+
+.footer__up2-3subitem2 {
+
+}
+
+.footer__up2-3subitem3 {
+
+}
+
+.footer__up-3 {
+    
+}
+
+.footer__up3-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    letter-spacing: 0.846154px;
+}
+
+.footer__up3-item1 {
+
+}
+
+.footer__up3-item2 {
+
+}
+
+.footer__up3-item2-1 {
+
+}
+
+.footer__up3-item2-2 {
+
+}
+
+.footer__up3-item2-3 {
+
+}
+
+.footer__up3-item2-4 {
+
+}
+
+.footer__up-4 {
+    display: flex;
+    gap: 1.562rem;
+
+    margin-top: 2.43rem;
+}
+
+.footer__up4-link1 {
+
+}
+
+.footer__up4-img1 {
+
+}
+
+.footer__up4-link2 {
+
+}
+
+.footer__up4-img2 {
+
+}
+
+.footer__up4-link3 {
+
+}
+
+.footer__up4-img3 {
+
+}
+
+.footer__down {
+    background: #171819;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__down-text {
+    color: white;
+}
+
+@media (max-width: 990.98px) {
+    .footer__up {
+        gap: 1.5rem;
+    }
+
+    .footer__up1-p {
+        font-size: 9px;
+    }
+
+    .footer__up2-list {
+        gap: 1rem;
+    }
+
+    .footer__up2-link {
+        font-size: 10px;
+    }
+
+    .footer__up2-sublist1 {
+        gap: 0.5rem;
+    }
+
+    .footer__up2-1subitem6 {
+        min-width: 4.4rem;
+    }
+
+    .footer__up3-list {
+        gap: 0.5rem;
+
+        font-size: 10px;
+    }
+
+    .footer__up2-sublist2 {
+        gap: 0.5rem;
+    }
+
+    .footer__up2-sublist3 {
+        gap: 0.5rem;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .footer__up {
+        flex-direction: column;
+        align-items: center;
+
+        padding: 42px 0 10px 0;
+    }
+
+    .footer__up-1 {
+        align-items: center;
+
+        margin-right: 0;
+    }
+
+    .footer__up1-p {
+        text-align: center;
+    }
+
+    .footer__up2-list {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer__up2-item2 {
+        margin-top: 0;
+    }
+
+    .footer__up2-item3 {
+        margin-top: 0;
+    }
+
+    .footer__up2-sublist1 {
+        align-items: center;
+    }
+
+    .footer__up2-sublist2 {
+        align-items: center;
+    }
+
+    .footer__up2-sublist3 {
+        align-items: center;
+    }
+
+    .footer__up3-list {
+        align-items: center;
+    }
+
+    .footer__up3-item2 {
+        text-align: center;
+    }
+    
+    .footer__down-text {
+        font-size: 11px;
     }
 }
 
